@@ -8,6 +8,11 @@ function addUp() {
   let currentNumber = number.innerHTML;
   number.innerHTML = Number(currentNumber) + 1;
 }
+plus.addEventListener("keydown", keys => {
+  if (keys === ("a" || "+" || "p")) {
+    addUp()
+  }
+});
 
 minus.addEventListener("click", subDown);
 function subDown() {
