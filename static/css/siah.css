@@ -1,0 +1,51 @@
+.container {
+  background-color: #f4a259;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+h1 {
+  color: #f4e285;
+}
+
+p {
+  color: #8cb369;
+  font-size: 90px;
+  margin: 40px 0;
+}
+
+.minus {
+  background-color: #f4a259;
+  border: 0;
+  color: #bc4b51;
+  font-size: 70px;
+  height: 80px;
+  width: 80px;
+}
+
+.minus:hover {
+  color: salmon;
+}
+
+.plus {
+  background-color: #f4a259;
+  border: 0;
+  color: #5b8e7d;
+  font-size: 70px;
+  height: 80px;
+  width: 80px;
+}
+
+.plus:hover {
+  color: lime;
+}
+
+.reset {
+  background-color: #f4a259;
+  border: 0;
+  color: #8cb369;
+  font-size: 40px;
+  margin-top: 10px;
+  width: 170px;
+}
