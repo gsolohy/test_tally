@@ -9,7 +9,7 @@ function addUp() {
   number.innerHTML = Number(currentNumber) + 1;
 }
 plus.addEventListener("keydown", keys => {
-  if (keys === ("a" || "+" || "p")) {
+  if (keys === "a") {
     addUp()
   }
 });
